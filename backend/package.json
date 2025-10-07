@@ -9,7 +9,9 @@
     "dev": "node --watch app.js",
     "migrate:users":"node database/migration/001_create_users.js",
     "migrate:post":"node database/migration/002_create_posts.js",
-    "seed:users":"node database/seed/001_seed_users.js"
+    "seed:users":"node database/seed/001_seed_users.js",
+    "seed:posts":"node database/seed/002_seed_posts.js"
+
   },
   "keywords": [
     "node",
